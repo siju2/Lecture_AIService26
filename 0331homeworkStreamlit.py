@@ -26,13 +26,13 @@ tk.Label(root, text="사용자 입력 폼 🔗", font=("NanumGothic", 16, "bold"
 # 이름 입력 창
 tk.Label(root, text="이름", bg="white").pack(anchor="w", padx=20)
 entry_name = tk.Entry(root, bg="#f0f2f6", relief="flat")
-entry_name.insert(0, "이혜정")
+entry_name.insert(0, "")
 entry_name.pack(fill="x", padx=20, pady=5, ipady=8)
 
 # 나이 입력 창 (간단하게 Entry로 구현)
 tk.Label(root, text="나이", bg="white").pack(anchor="w", padx=20, pady=(10, 0))
 entry_age = tk.Entry(root, bg="#f0f2f6", relief="flat")
-entry_age.insert(0, "24")
+entry_age.insert(0, "")
 entry_age.pack(fill="x", padx=20, pady=5, ipady=8)
 
 # 약관 동의 체크박스
